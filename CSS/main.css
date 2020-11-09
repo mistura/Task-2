@@ -1,0 +1,314 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#contain{
+    width: 100%;
+    height: 100%;
+}
+#navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 30px;
+}
+.logo{
+    width: 140px;
+    height: 80x;
+    padding-left: 20px;
+    display: flex;
+    margin-left: 5%;
+    font-family: 'DM Sans', sans-serif;
+}
+.logo h1{
+    margin-top: 20px;
+}
+.logo img{
+    
+    width: 100%;
+    height: 100%;
+}
+ul{
+    margin-left: 37%;
+    list-style: none;
+    display: flex;
+}
+ul a{
+    margin-left: 80px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: #3b3483;
+    font-family: 'DM Sans', sans-serif;
+}
+#banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+#text{
+    margin-left: 12%;
+    margin-top: 200px;
+}
+#text h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #211e43;
+}
+#text p{
+    font-size: 20px;
+}
+#brainimage{
+    width: 35%;
+    height: 350px;
+    margin-top: 140px;
+    margin-left: 5%
+}
+#brainimage img{
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    width: 35%;
+    height: 50px;
+    background-color: #f29942;
+    color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+    outline: none;
+    border: none;
+}
+#text2{
+    width: 100%;
+    height: auto;
+    margin-top: 300px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+#text2 h1{
+    color: #f2994a;
+    font-size: 60px;
+    font-weight: 700;
+}
+#text2 p{
+    color:  #211e43;
+    font-size: 30px;
+    font-weight: 700;
+}
+#courses{
+    width: 100%;
+    height: auto;
+    color: #f7f7f7;
+    display: flex;
+    margin-top: 5%;
+    font-family: 'DM Sans', sans-serif;
+}
+.shape{
+    width: 38%;
+    height: 450px;
+    margin-left: 2%;
+    text-align: center;
+    background-color: #f2994a;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.img2{
+    width: 20%;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+.shape h2{
+    margin-top: 3%;
+    color: white;
+    font-weight: 700;
+}
+.shape p{
+    margin-top: 10%;
+}
+.others{
+    width: 32%;
+    height: 450px;
+    text-align: center;
+    color: rgb(44, 44, 44);
+}
+.img3{
+    width: 40%;
+    height: 160px;
+    margin: auto;
+    border-radius: 100%;
+    border: solid 2px #bdbdbd;
+    padding: 20px
+}
+.img3 img{
+    width: 90%;
+    height: 90%;
+}
+.others h2{
+    margin-top: 10%;
+}
+.others p{
+    margin-top: 5%;
+}
+.sec4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding:4%;
+}
+.header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.header h1{
+    color: #f2994a;
+    font-size: 60px;
+    font-weight: 700;
+}
+.header p{
+    font-size: 20px;
+    margin-top: 2%;
+    color: rgb(44, 44, 44);
+    font-weight: 700;
+}
+.box{
+    width: 38%;
+    height: 470px;
+    margin: auto;
+    margin-left: 5px;
+
+}
+.img4{
+    width: 100%;
+    height: 65%;
+}
+.img4 img{
+    width: 100%;
+    height: 100%;
+}
+.box h2{
+    margin: 30px;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(44, 44, 44);
+    text-align: center
+}
+.textarea{
+    width: 100%;
+    height: 35%;
+    border: solid 1px #bdbdbd;
+    border-radius: 6px;
+}
+.header2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.header2 p{
+    color: #211e43;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.details{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+label{
+    margin-left: 28%;
+    margin-top: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    color:#211e43;
+}
+input{
+    margin: auto;
+    width: 47%;
+    height: 70px;
+    display: block;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #211e43;
+    font-size: 26px;
+    border: solid 2px #211e43;
+}
+textarea{
+    width: 47%;
+    margin-left: 26%;
+    display: block;
+    margin-top: 40px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #2d2770;
+    font-size: 26px;
+    border: solid 2px #211e43;
+}
+.btn2{
+    width: 47%;
+    height: 79px;
+    margin-left: 26%;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    background-color: #f29942;
+    color: white;
+    border-radius: 15px;
+    font-size: 25px;
+}
+#foot{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+}
+#backgroundfoot{
+   width: 100%;
+    height: 350px;
+    top: 2930px;
+    position: absolute;
+}
+.logo1{
+    width: 100px;
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    height: 70px;;
+    background-color: #56ccf2;
+}
+.logo1 img{
+    width: 100%;
+    height: 100%;
+}
+.logo1 h1 {
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+#foot ul{
+    position: absolute;
+    top: 240px;
+    left: 30%;
+    
+}
+#foot ul a{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin-left: 20px;
+}
+#foot p{
+    position: absolute;
+    top: 258px;
+    left: 12%;
+    font-size: 26px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
