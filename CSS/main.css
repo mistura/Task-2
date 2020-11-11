@@ -7,6 +7,91 @@
     width: 100%;
     height: 100%;
 }
+#shape1{
+    position: absolute;
+    left: 161px;
+}
+#shape2{
+    position: absolute;
+    top: 26px;
+}
+#shape3{
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    z-index: 2;
+}
+#shape4{
+    position: absolute;
+    top: -6px;
+    left: 870px;
+    z-index: 1;
+}
+#shape5{
+    position: absolute;
+    top: 627px;
+    left: 483px;
+}
+#shape6{
+    position: absolute;
+    top: 512px;
+    right: 0px;
+}
+#shape7{
+    position: absolute;
+    top: 857px;
+    right: 5%;
+}
+#shape8{
+    position: absolute;
+    top: 1136px;
+    left: 780px;
+}
+#shape9{
+    position: absolute;
+    top: 1641px;
+    left: 700px;
+}
+#shape10{
+    position: absolute;
+    top: 1698px;
+    right: 10%;
+}
+#shape11{
+    position: absolute;
+    top: 1737px;
+    left: 280px;
+}
+#shape12{
+    position: absolute;
+    top: 2560px;
+    left: 29%;
+}
+#shape13{
+    position: absolute;
+    top:2650px;
+    left: 107px;
+}
+#shape14{
+    position: absolute;
+    top: 2870px;
+    right: 15%;
+}
+#shape15{
+    position: absolute;
+    top: 3620px;
+    left: 180px;
+}
+#shape16{
+    position: absolute;
+    top: 3500px;
+    right: 8%;
+}
+#shape17{
+    position: absolute;
+    top: 3580px;
+    left: 554px;
+}
 #navbar{
     width: 100%;
     height: auto;
@@ -18,11 +103,15 @@
     height: 80x;
     padding-left: 20px;
     display: flex;
-    margin-left: 5%;
+    z-index: 1;
+    margin-top: 30px;
+    margin-left: 8%;
     font-family: 'DM Sans', sans-serif;
 }
 .logo h1{
-    margin-top: 20px;
+    position: absolute;
+    top: 60px;
+    left: 15%;
 }
 .logo img{
     
@@ -30,6 +119,7 @@
     height: 100%;
 }
 ul{
+    z-index: 3;
     margin-left: 37%;
     list-style: none;
     display: flex;
@@ -48,8 +138,8 @@ ul a{
     
 }
 #text{
-    margin-left: 12%;
-    margin-top: 200px;
+    margin-left: 15%;
+    margin-top: 270px;
 }
 #text h1{
     font-family: 'DM Sans', sans-serif;
@@ -61,10 +151,11 @@ ul a{
     font-size: 20px;
 }
 #brainimage{
-    width: 35%;
-    height: 350px;
-    margin-top: 140px;
-    margin-left: 5%
+    width: 357px;
+    height: 357px;
+    z-index: 4;
+    margin-top: 170px;
+    margin-left: 12%
 }
 #brainimage img{
     width: 100%;
@@ -83,7 +174,7 @@ ul a{
 #text2{
     width: 100%;
     height: auto;
-    margin-top: 300px;
+    margin-top: 400px;
     text-align: center;
     font-family: 'DM Sans', sans-serif;
 }
@@ -102,7 +193,7 @@ ul a{
     height: auto;
     color: #f7f7f7;
     display: flex;
-    margin-top: 5%;
+    margin-top: 8%;
     font-family: 'DM Sans', sans-serif;
 }
 .shape{
@@ -146,28 +237,31 @@ ul a{
     padding: 20px
 }
 .img3 img{
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
 }
 .others h2{
     margin-top: 10%;
 }
 .others p{
     margin-top: 5%;
+    margin: 30px;
 }
 .sec4{
     width: 100%;
     height: auto;
     display: flex;
     padding:4%;
+    margin-top: 30px;
 }
 .header{
     width: 100%;
     height: auto;
+    margin-top: 230px;
     text-align: center;
     font-family: 'DM Sans', sans-serif;
 }
-.header h1{
+.header h2{
     color: #f2994a;
     font-size: 60px;
     font-weight: 700;
@@ -208,6 +302,7 @@ ul a{
 .header2{
     width: 100%;
     height: auto;
+    margin-top: 190px;
     text-align: center;
     font-family: 'DM Sans', sans-serif;
 }
@@ -267,20 +362,21 @@ textarea{
 #foot{
     width: 100%;
     height: 350px;
+    top: 3730px;
     position: absolute;
 }
 #backgroundfoot{
    width: 100%;
     height: 350px;
-    top: 2930px;
+    top: 3700px;
     position: absolute;
 }
 .logo1{
-    width: 100px;
+    width: auto;
     position: absolute;
     top: 240px;
     left: 20px;
-    height: 70px;;
+    height: auto;
     background-color: #56ccf2;
 }
 .logo1 img{
@@ -294,21 +390,21 @@ textarea{
 }
 #foot ul{
     position: absolute;
-    top: 240px;
-    left: 30%;
+    top: 230px;
+    left: 31%;
     
 }
 #foot ul a{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     color: white;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 #foot p{
     position: absolute;
-    top: 258px;
-    left: 14%;
-    font-size: 26px;
+    top: 252px;
+    left: 17%;
+    font-size: 22px;
     font-family: 'DM Sans', sans-serif;
     color: white;
 }
